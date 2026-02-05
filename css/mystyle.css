@@ -35,3 +35,14 @@ body {
     box-shadow: 1px 1px 10px silver;
 }
 
+@media (max-width: 445px){
+    .hero{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding-bottom: 30px;
+    }
+
+    .container-left{
+        margin-left: 58px;
+    }
+}
